@@ -9,5 +9,6 @@
 
 int main() {
     // this function returns the integer portion of a float
-    std::cout << "The integer part of 12.9 is " << (floor(12.9)) << std::endl;
+    std::cout << "The integer part of 12.9 is " << (floor(12.9)) << "." 
+              << std::endl;
 }
